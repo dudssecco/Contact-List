@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 400px) {
+
+    .erro{
+        margin-top: 100px;
+      }
+      
+    .erro h1{
+        font-size: 4rem;
+      }
+      
+      .erro p{
+        font-size: 1.25rem;
+      }
+}
