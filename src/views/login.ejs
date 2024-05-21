@@ -1,0 +1,23 @@
+<%- include('includes/headerLogin') %>
+<%- include('includes/navLogin') %>
+
+<div class="container title">
+  <h1>Login</h1>
+</div>
+
+<div class="container meio">
+  <form action="/login" method="POST">
+    <div class="box-input">
+      <label for="id-email">Seu e-mail</label><br>
+      <input type="email" name="email" id="id-email">
+    </div>
+    <div class="box-input">
+      <label for="id-senha">Senha</label><br>
+      <input type="password" name="senha" id="id-senha">
+    </div>
+    <p>Termos de Uso</p>
+    <button type="submit">Login</button>
+  </form>
+</div>
+
+<%- include('includes/footer') %>
