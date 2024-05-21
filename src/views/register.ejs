@@ -7,6 +7,7 @@
 
 <div class="container meio">
   <form action="/register" method="POST">
+    <input type="hidden" name="_csrf" value=<%= csrfToken %>>
     <div class="box-input">
       <label for="id-email">Seu e-mail</label><br>
       <input type="email" name="email" id="id-email">
