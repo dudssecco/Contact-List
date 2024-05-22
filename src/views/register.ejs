@@ -5,6 +5,8 @@
   <h1>Cadastre-se</h1>
 </div>
 
+<%- include('includes/erroMsg') %>
+
 <div class="container meio">
   <form action="/register" method="POST">
     <input type="hidden" name="_csrf" value=<%= csrfToken %>>
@@ -14,7 +16,7 @@
     </div>
     <div class="box-input">
       <label for="id-senha">Senha</label><br>
-      <input type="password" name="senha" id="id-senha">
+      <input type="password" name="password" id="id-senha">
     </div>
     <p>Termos de Uso</p>
     <button type="submit">Crie sua Conta</button>

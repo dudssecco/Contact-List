@@ -1,0 +1,19 @@
+<% if(errors.length > 0){ %>
+    <div class="container meio">
+        <div class="msg-erro">
+        <p><% errors.forEach(erro => { %>
+            <%= erro %><br>
+        <% }) %></p>
+        </div>
+    </div>
+<% } %>
+
+<% if(success.length > 0){ %>
+    <div class="container meio">
+        <div class="msg-success">
+        <p><% success.forEach(success => { %>
+            <%= success %><br>
+        <% }) %></p>
+        </div>
+    </div>
+<% } %>

@@ -107,7 +107,7 @@ textarea:focus, input:focus, select:focus{
   outline: 0;
 } 
 
-p{
+form > p{
   margin-top: 30px;
   text-decoration: underline;
   cursor: pointer;
@@ -128,4 +128,49 @@ form button{
   font-size: 0.9rem;
   margin-top: 10px;
   cursor: pointer;
+}
+
+/* Msg Erro */
+
+.meio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.msg-erro{
+  width: 800px;
+  background-color: rgba(241, 140, 140, 0.678);
+  padding: 10px 25px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  border: 1px solid rgb(235, 98, 98);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: rgb(161, 53, 53);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.msg-success{
+  width: 800px;
+  background-color: rgba(140, 241, 182, 0.678);
+  padding: 10px 25px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  border: 1px solid rgba(42, 88, 62, 0.678);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: rgba(39, 78, 56, 0.678);
+  font-size: 1rem;
+  font-weight: 500;
 }
