@@ -9,7 +9,8 @@ route.get('/', HomeController.index);
 
 // Rotas de Login
 route.get('/login/index', LoginController.index)
-route.post('/login', LoginController.index)
+route.post('/login', LoginController.login)
+route.get('/logout', LoginController.logout)
 
 // Rotas de Registro
 route.get('/register/index', RegisterController.index)

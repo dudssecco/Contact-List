@@ -5,6 +5,8 @@
   <h1>Login</h1>
 </div>
 
+<%- include('includes/erroMsg') %>
+
 <div class="container meio">
   <form action="/login" method="POST">
     <input type="hidden" name="_csrf" value=<%= csrfToken %>>
